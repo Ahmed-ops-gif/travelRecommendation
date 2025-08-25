@@ -1,0 +1,314 @@
+body {
+    margin: 0px;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: rgba(15, 28, 28, 0.475);
+    /* Semi-transparent background for readability */
+    
+    height: 40px;
+    padding: 0px;
+    z-index: 2;
+    position: fixed;
+    width: 100%;
+
+
+}
+
+img {
+    height: 160px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+}
+
+#search {
+    background-color: white;
+    border: 0px;
+    padding: 4px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+
+#search-input {
+    border: 0px;
+    padding: 5px;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0);
+
+}
+
+#search button {
+    border: 0;
+    background-color: #047377;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+#recommendations {
+  display: flex;
+  flex-wrap: no-wrap;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 15px;
+  width: 250px;
+  background: white;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+#background img{
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100vh;
+    z-index: 0;
+    position: fixed;
+}
+#main-container {
+    position: relative;
+    min-height: 100vh;
+    /* Full viewport height */
+
+    padding: 20px;
+
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    /* Narrow sidebar */
+    z-index: 1;
+    /* Above background, below nav */
+    margin-top: -30px;
+}
+
+aside img {
+    padding-top: 20px;
+    width: 25px;
+    height: 25px;
+}
+
+#div-line {
+    margin-left: 17px;
+    margin-bottom: 100px;
+    width: 1px;
+    height: 250px;
+    background-color: white;
+
+}
+
+#X-icon,
+#FB-icon,
+#IG-icon,
+#YB-icon {
+    margin-left: 3px;
+
+}
+
+#home {
+    margin-top: 300px;
+    margin-left: 85px;
+    padding-top: 100px;
+    transform: translateY(-50%);
+    width: 90%;
+    text-align: left;
+    z-index: 1;
+    /* Above background */
+}
+
+.explore h1 {
+    margin-right: 900px;
+    font-size: 58px;
+    text-transform: uppercase;
+    max-width: 100%;
+}
+
+.info-text p {
+    margin-right: 1000px;
+    width: 300px;
+    text-align: left;
+    line-height: 20px;
+}
+
+#home button {
+    padding: 10px 30px;
+    background-color: #047377;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 950px;
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+#aboutus{
+    width: 90%;
+    margin-top: 200px;
+    margin-left: 85px;
+    z-index: 1;
+}
+
+span {
+    font-weight: bolder;
+}
+
+#aboutus #txt,
+.team-mem {
+    background: rgba(15, 28, 28, 0.475);
+    /* Semi-transparent background for readability */
+    width: fit-content;
+    padding: 10px;
+    border-radius: 5px;
+}
+#aboutus h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+#ourTeam h2 {
+    text-transform: capitalize;
+    font-size: 60px;
+    text-align: left;
+    font-weight: bolder;
+    margin-top: 12px
+}
+
+#ourTeam img {
+    width: 20px;
+    height: 20px;
+}
+
+#ourTeam {
+    display: flex;
+    flex-direction: row;
+    margin-top: 90px;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+.team-mem{
+    width: 20%;
+    height: 170px;
+}
+.team-mem h5 {
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.team-mem p {
+
+    font-size: 14px;
+
+}
+
+p {
+    margin-left: 15px;
+
+}
+.team-mem h5, .team-mem p{
+    margin-left: 35px;
+    margin-top: -6px;
+    line-height: 15px;
+}
+.team-mem button {
+    padding: 8px 20px;
+    border-color: white;
+    border-width: 0.5px;
+    background-color: #274483;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 60%;
+    margin-left: 22%;
+    font-weight: bolder;
+}
+
+#contact{
+    margin-top: 500px;
+    margin-left: 85px;
+    width: 90%;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-transform: capitalize;
+    padding-bottom: 200px;
+    
+}
+.contactUs {
+    margin-top: 40px;
+    margin-left: 38px;
+}
+.contactUs h2{
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 60px;
+    text-align: left;
+}
+.contactForm {
+    background: rgba(15, 28, 28, 0.39);
+    /* Semi-transparent background for readability */
+    width: fit-content;
+    padding: 10px;
+    width: 50%;
+    border-radius: 5px;
+    height: 300px;
+}
+.contactForm input, .contactForm textarea {
+    background: rgba(15, 28, 28, 0.39);
+    /* Semi-transparent background for readability */
+    width: fit-content;
+    padding: 10px;
+    border-color: white;
+    border-width: 0.5px;
+    width: 96%;
+    border-radius: 5px;
+}
+.contactForm textarea{
+    height: 120px;
+}
+.contactForm button {
+    background-color: #047377;
+    border: 0;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+    height: 30px;
+}
