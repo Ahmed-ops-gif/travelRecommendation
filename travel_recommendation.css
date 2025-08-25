@@ -11,7 +11,7 @@ nav {
     padding: 20px;
     background: rgba(15, 28, 28, 0.475);
     /* Semi-transparent background for readability */
-    
+
     height: 40px;
     padding: 0px;
     z-index: 2;
@@ -57,31 +57,32 @@ a {
     margin-right: 5px;
     cursor: pointer;
 }
+
 #recommendations {
-  display: flex;
-  flex-wrap: no-wrap;
-  flex-direction: column;
-  gap: 20px;
+    display: flex;
+    flex-wrap: no-wrap;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .card {
-  border: 1px solid #ccc;
-  border-radius: 10px;
-  padding: 15px;
-  width: 250px;
-  background: white;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-  text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    width: 250px;
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
 .card img {
-  width: 100%;
-  height: 150px;
-  object-fit: cover;
-  border-radius: 8px;
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
 }
 
-#background img{
+#background img {
     background-repeat: no-repeat;
     background-size: contain;
     width: 100%;
@@ -89,6 +90,7 @@ a {
     z-index: 0;
     position: fixed;
 }
+
 #main-container {
     position: relative;
     min-height: 100vh;
@@ -174,7 +176,7 @@ aside img {
 
 }
 
-#aboutus{
+#aboutus {
     width: 90%;
     margin-top: 200px;
     margin-left: 85px;
@@ -193,6 +195,7 @@ span {
     padding: 10px;
     border-radius: 5px;
 }
+
 #aboutus h1 {
     text-transform: uppercase;
     font-weight: bold;
@@ -219,10 +222,12 @@ span {
     justify-content: space-between;
     margin-left: 50px;
 }
-.team-mem{
+
+.team-mem {
     width: 20%;
     height: 170px;
 }
+
 .team-mem h5 {
     text-transform: capitalize;
     font-weight: bolder;
@@ -239,11 +244,14 @@ p {
     margin-left: 15px;
 
 }
-.team-mem h5, .team-mem p{
+
+.team-mem h5,
+.team-mem p {
     margin-left: 35px;
     margin-top: -6px;
     line-height: 15px;
 }
+
 .team-mem button {
     padding: 8px 20px;
     border-color: white;
@@ -258,7 +266,7 @@ p {
     font-weight: bolder;
 }
 
-#contact{
+#contact {
     margin-top: 500px;
     margin-left: 85px;
     width: 90%;
@@ -268,18 +276,21 @@ p {
     justify-content: space-between;
     text-transform: capitalize;
     padding-bottom: 200px;
-    
+
 }
+
 .contactUs {
     margin-top: 40px;
     margin-left: 38px;
 }
-.contactUs h2{
+
+.contactUs h2 {
     text-transform: uppercase;
     font-weight: bolder;
     font-size: 60px;
     text-align: left;
 }
+
 .contactForm {
     background: rgba(15, 28, 28, 0.39);
     /* Semi-transparent background for readability */
@@ -289,7 +300,9 @@ p {
     border-radius: 5px;
     height: 300px;
 }
-.contactForm input, .contactForm textarea {
+
+.contactForm input,
+.contactForm textarea {
     background: rgba(15, 28, 28, 0.39);
     /* Semi-transparent background for readability */
     width: fit-content;
@@ -299,9 +312,11 @@ p {
     width: 96%;
     border-radius: 5px;
 }
-.contactForm textarea{
+
+.contactForm textarea {
     height: 120px;
 }
+
 .contactForm button {
     background-color: #047377;
     border: 0;
